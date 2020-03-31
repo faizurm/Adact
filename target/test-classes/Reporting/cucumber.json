@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5662312078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "verifying booking a room with many required inputs",
+        "description": "",
+        "id": "verifying-booking-room;verifying-booking-a-room-with-many-required-inputs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 381040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2491279703,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigated to adact application",
+            "match": {
+              "location": "LoginPageStep.user_navigated_to_adact_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 645947891,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"samsamsam\" and \"samsamsam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsamsam\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"samsamsam\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginPageStep.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1423931870,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user whould click logIn button",
+            "match": {
+              "location": "LoginPageStep.user_whould_click_logIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34396867,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify he has entered into Welcome page",
+            "match": {
+              "location": "LoginPageStep.user_should_verify_he_has_entered_into_Welcome_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3297919933,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Selects the \"Sydney\", \"Hotel Creek\", \"Standard\", \"2 - Two\", \"27/02/2020\", \"29/02/2020\", \"1 - One\", \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"27/02/2020\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"29/02/2020\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 104
+                }
+              ],
+              "location": "LoginPageStep.user_Selects_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9453510,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should verify he is in select hotel page",
+            "match": {
+              "location": "LoginPageStep.user_should_verify_he_is_in_select_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1335941169,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects the hotel",
+            "match": {
+              "location": "LoginPageStep.user_selects_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16186497,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should verify he entered in book a hotel page",
+            "match": {
+              "location": "LoginPageStep.user_should_verify_he_entered_in_book_a_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2281993236,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters his personnel details \"sam\", \"Tom\", \"HonkKong\", \"7652437571546666\", \"Master Card\", \"January\",  \"2022\", \"111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sam\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Tom\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"HonkKong\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"7652437571546666\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"111\"",
+                  "offset": 115
+                }
+              ],
+              "location": "LoginPageStep.user_enters_his_personnel_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186594709,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click book now",
+            "match": {
+              "location": "LoginPageStep.user_click_book_now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7842969878,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is getting order no",
+            "match": {
+              "location": "LoginPageStep.user_is_getting_order_no()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4382392109,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User cancels his booking",
+            "match": {
+              "location": "LoginPageStep.user_cancels_his_booking()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying booking room",
+    "description": "",
+    "id": "verifying-booking-room",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/loginpage.feature",
+    "tags": []
+  }
+]
