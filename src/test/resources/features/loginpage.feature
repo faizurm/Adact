@@ -16,4 +16,4 @@ Feature: verifying booking room
 
     Examples: 
       | userName  | password  | location | hotel       | roomType | noOfRooms | inDate     | outDate    | adulPerRoom | chiPerRoom | firstName | lastName | biilingAdd | creditCardNo     | cardType    | expiryMonth | expiryYear | cvv |
-      | samsamsam | samsamsam | Sydney   | Hotel Creek | Standard | 2 - Two   | 27/02/2020 | 29/02/2020 | 1 - One     | 2 - Two    | sam       | Tom      | HonkKong   | 7652437571546666 | Master Card | January     |       2022 | 111 |
+      | samsamsam | 2NX9FE | Sydney   | Hotel Creek | Standard | 2 - Two   | 27/02/2020 | 29/02/2020 | 1 - One     | 2 - Two    | sam       | Tom      | HonkKong   | 7652437571546666 | Master Card | January     |       2022 | 111 |
